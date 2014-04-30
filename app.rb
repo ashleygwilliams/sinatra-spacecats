@@ -3,6 +3,7 @@ Bundler.require
 
 require 'sinatra/activerecord'
 require './lib/spacecat'
+require './environments'
 
 class SpacecatApp < Sinatra::Application
 
