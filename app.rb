@@ -31,7 +31,7 @@ class SpacecatApp < Sinatra::Application
   end
 
   get '/' do
-    File.read(File.join('public/app', 'index.html'))
+    File.read(File.join('public', 'index.html'))
   end
 
   get '/spacecats' do
